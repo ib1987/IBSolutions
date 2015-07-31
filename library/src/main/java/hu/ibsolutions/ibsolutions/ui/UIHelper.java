@@ -15,11 +15,12 @@ import java.lang.reflect.Field;
  */
 public class UIHelper {
 
-    private static final String TAG                 = UIHelper.class.getName();
+    // Static variable for logging
+    private static final String TAG = UIHelper.class.getName();
 
     /**
      * Set the specific typeface
-     * @param context specific context
+     * @param context target context
      * @param target target TextView
      * @param typeFace specific typeface name
      */
