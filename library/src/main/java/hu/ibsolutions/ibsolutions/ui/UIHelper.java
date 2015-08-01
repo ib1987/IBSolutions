@@ -45,7 +45,7 @@ public class UIHelper {
      * @param toolbar target Toolbar
      * @return TextView
      */
-    private static TextView getToolbarTitle(Toolbar toolbar) {
+    public static TextView getToolbarTitle(Toolbar toolbar) {
         TextView title = null;
         try {
             Field field = toolbar.getClass().getDeclaredField("mTitleTextView");
