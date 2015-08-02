@@ -6,7 +6,7 @@ import android.graphics.Typeface;
 import android.util.Log;
 import android.view.WindowManager;
 import android.widget.TextView;
-import android.widget.Toolbar;
+import android.support.v7.widget.Toolbar;
 
 import java.lang.reflect.Field;
 
